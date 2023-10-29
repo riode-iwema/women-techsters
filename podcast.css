@@ -1,1 +1,25 @@
+body{
+    background-color: aliceblue;
+}
+header{
+    margin-left: 200px;
+}
+main{
+
+        margin-left: 200px;
+}
+.video{
+    border-radius: 10px;
+}
+.texts{
+    display: flex;
+    
+    
+}
+.speaker{
+   margin-left: 20px ;
+}
+.timestamp{
+    margin-left: 150px;
+}
 

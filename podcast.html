@@ -4,43 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Podcast Page</title>
-    <link rel="stylesheet" href="podcast assignment.css">
+    <link rel="stylesheet" href="podcast.css">
 </head>
 <body>
-    <header class="header">
+    <header>
        <h1>Faustina <> John (User interview)</h1> 
        <h4 style="color: grey;" >Created in Sep 17, 11:54 AM </h4>
     </header>
     <main>
         <div>
-            <p> <b>Project:</b> 
-                <span style="color: grey;">Staying connected in post-pandemic world</span> 
+            <p> <strong>Project:</strong> 
+                <span style="color: rgb(91, 89, 89);"><strong>Staying connected in post-pandemic world</strong></span> 
             </p>
-            <p> <b>Moderator:</b>
+            <p> <strong>Moderator:</strong>
                 <span style="color: grey;">Speaker 1</span> </p>
-            <p> <b>Participant: </b> <span style="color: grey;" > Speaker 2 </span>
+            <p> <strong>Participant: </strong> <span style="color: grey;" > Speaker 2 </span>
             </p>
         </div>
         <div>
-            <video controls width="400" height="400" 
+            <video class="video" controls width="400" height="400" 
             poster="https://media.istockphoto.com/id/1484821534/photo/boy-from-behind-with-hat-smiling-at-summer-sunset-on-the-beach-summer-vacation.jpg?s=612x612&w=0&k=20&c=6rHKfc9DXliIsHgIU_OVB8HrCn8bod-Grvbh88UjiRg=">
                 <source src="https://player.vimeo.com/external/531920387.hd.mp4?s=826b7fa0316dd440f26479c7a18cc1cb39196894&profile_id=174&oauth2_token_id=57447761">
             </video>
         </div>
-  
-   
-    <div>
-       
-        <p>  <time style="color: grey;">00:05</time> <b>Speaker 1</b> <br>
-        How do you feel about the number of video calls you and your team are conducting?
-
-        </p>
-        <p>  <time style="color: grey;"> </time>00:05</time><b>Speaker 2</b> <br>
-        The number of video calls has grown expontentially since our team moved to a remote environment. I feel emotionally and physically drained by the number of calls I </p>
-
+    </main>
+    <div class="texts">
+        <div  class="timestamp">
+            <span> <time>00:05</time></span>
+        </div>
+        <div class="speaker">
+        <strong>Speaker 1</strong>
+        <span>How do you feel about the number of video calls you and <br> your team are conducting?</span>
+        </div>
     </div>
 
-    </main>
+    <div class="texts">
+        <div  class="timestamp">
+            <span> <time>00:05</time></span>
+        </div>
+        <div class="speaker">
+        <strong>Speaker 2</strong>
+        <span>The number of video calls has grown expontentially since <br> our team moved to a remote environment. I feel emotionally <br>and physically drained by the number of calls I </span>
+        </div>
+    </div>
+
     
 </body>
 </html>
